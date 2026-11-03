@@ -257,8 +257,8 @@ Steps to Execute:
 3. Enter the correct password.
 4. Click the Login button.
 
-**Expected Result:** The application should successfully authenticate the user because username letter casing should not affect login.
+**Actual Result:** The application displayed the error message: "username is invalid".
 
-**Actual Result:** To be filled after execution.
+**Status:** Failed
 
-**Status:** Not Run
+**Execution Notes:** Login failed when the valid username "student" was entered in uppercase as "STUDENT". The application appears to treat usernames as case-sensitive.
