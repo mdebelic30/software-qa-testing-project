@@ -180,3 +180,29 @@ Status: Not Run
 **Actual Result:** To be filled after execution.
 
 **Status:** Not Run
+
+### TC08 – Verify login with invalid credentials
+
+**Test Case ID:** TC08
+
+**Title:** Verify that login is rejected when invalid credentials are entered
+
+**Test Type:** Negative Testing / Authentication Testing
+
+**Preconditions:** User is on the login page. The test username does not belong to an existing account.
+
+**Test Data:**
+- Username: `wronguser123`
+- Password: `WrongPass123`
+
+**Steps to Execute:**
+1. Open the login page.
+2. Enter `wronguser123` in the Username field.
+3. Enter `WrongPass123` in the Password field.
+4. Click the Login button.
+
+**Expected Result:** The application should reject the login attempt and display an appropriate error message, such as "Invalid username or password". The user should not be logged in.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
