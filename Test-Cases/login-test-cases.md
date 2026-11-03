@@ -176,11 +176,11 @@ Steps to Execute:
 3. Enter `Password123456789012` in the Password field.
 4. Click the Login button.
 
-**Expected Result:** The application should display a validation message indicating that the password cannot exceed 20 characters. The login attempt should be rejected.
+**Actual Result:** The application displayed the error message: "invalid password".
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when a password exceeding the maximum allowed length (20 characters) was entered.
 
 ### TC08 – Verify login with invalid credentials
 
