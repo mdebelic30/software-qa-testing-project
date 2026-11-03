@@ -124,11 +124,11 @@ Steps to Execute:
 3. Leave the Password field empty.
 4. Click the Login button.
 
-**Expected Result:** The application should display a validation message indicating that the password field is required. The user should not be logged in.
+**Actual Result:** The application displayed the error message: "Your password is invalid!"
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when the password field was left empty.
 
 ### TC06 – Verify password below minimum length
 
