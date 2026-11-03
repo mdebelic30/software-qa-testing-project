@@ -154,3 +154,29 @@ Status: Not Run
 **Actual Result:** To be filled after execution.
 
 **Status:** Not Run
+
+### TC07 – Verify password above maximum length
+
+**Test Case ID:** TC07
+
+**Title:** Verify that passwords longer than 20 characters are rejected
+
+**Test Type:** Negative Testing / Boundary Value Analysis
+
+**Preconditions:** User is on the login page.
+
+**Test Data:**
+- Username: `marija123`
+- Password: `Password123456789012`
+
+**Steps to Execute:**
+1. Open the login page.
+2. Enter `marija123` in the Username field.
+3. Enter `Password123456789012` in the Password field.
+4. Click the Login button.
+
+**Expected Result:** The application should display a validation message indicating that the password cannot exceed 20 characters. The login attempt should be rejected.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
