@@ -25,4 +25,30 @@ Actual Result: To be filled after execution.
 
 Status: Not Run
 
+### TC02 – Verify login with an empty username
+
+**Test Case ID:** TC02
+
+**Title:** Verify that the username field is required
+
+**Test Type:** Negative Testing
+
+**Preconditions:** User is on the login page.
+
+**Test Data:**
+- Username: Empty
+- Password: `Password123`
+
+**Steps to Execute:**
+1. Open the login page.
+2. Leave the Username field empty.
+3. Enter a valid password.
+4. Click the Login button.
+
+**Expected Result:** The application should display a validation message indicating that the username field is required. The user should not be logged in.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
+
 
