@@ -1,42 +1,41 @@
 # Bug Report Template
 
-## Title
-[Short, specific description of the defect]
+# BR-001 – Username Case Sensitivity
 
-## ID
-BUG-XXX
+**Bug ID:** BR-001
 
-## Environment
-- Application / build:
-- Operating system:
-- Browser / device:
-- Date:
+**Title:** Login rejects username entered in uppercase
 
-## Severity
-Critical / High / Medium / Low
+**Related Test Case:** TC10
 
-## Priority
-High / Medium / Low
+**Environment:** Practice Test Automation – Login Page  
+**URL:** https://practicetestautomation.com/practice-test-login/
 
-## Preconditions
-[Required account, data, or application state]
+**Preconditions:**
+- A valid user account exists.
+- Valid credentials are available.
 
-## Steps to reproduce
-1.
-2.
-3.
+**Steps to Reproduce:**
+1. Open the login page.
+2. Enter `STUDENT` in the Username field.
+3. Enter `Password123` in the Password field.
+4. Click Submit.
 
-## Expected result
-[What should happen according to the requirement]
+**Test Data:**
+- Username: `STUDENT`
+- Password: `Password123`
 
-## Actual result
-[What happened instead]
+**Expected Result:**  
+The application should accept the username regardless of letter case, if usernames are intended to be case-insensitive.
 
-## Reproducibility
-Always / Sometimes / Once
+**Actual Result:**  
+The application displayed the error message: "username is invalid".
 
-## Evidence
-[Attach screenshot, screen recording, console output, or API response if available]
+**Status:** Needs Clarification
 
-## Status
-New / Open / In Progress / Fixed / Retest / Closed
+**Severity:** Not determined
+
+**Priority:** Not determined
+
+**Notes:**  
+The application appears to treat usernames as case-sensitive. Further clarification of the expected username validation behavior is required before classifying this as a confirmed defect.
