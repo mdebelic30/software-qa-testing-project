@@ -72,11 +72,11 @@ Steps to Execute:
 3. Enter a valid password.
 4. Click the Login button.
 
-**Expected Result:** The application should display a validation message indicating that the username must contain at least 3 characters. The login attempt should be rejected.
+**Actual Result:** The application displayed the error message: "Your username is invalid!"
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when a username shorter than the minimum allowed length (3 characters) was entered.
 
 ### TC04 – Verify username above maximum length
 
