@@ -19,11 +19,12 @@ Steps to Execute:
 2. Enter a valid username.
 3. Enter a valid password.
 4. Click the Login button.
-Expected Result: The user should be successfully logged in and redirected to the homepage.
 
-Actual Result: To be filled after execution.
+**Actual Result:** The application displayed the message: "Congratulations student. You successfully logged in!"
 
-Status: Not Run
+**Status:** Passed
+
+**Execution Notes:** Login was successful using valid demo credentials on Practice Test Automation.
 
 ### TC02 – Verify login with an empty username
 
