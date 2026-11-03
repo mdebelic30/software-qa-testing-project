@@ -102,3 +102,29 @@ Status: Not Run
 **Actual Result:** To be filled after execution.
 
 **Status:** Not Run
+
+### TC05 – Verify login with an empty password
+
+**Test Case ID:** TC05
+
+**Title:** Verify that the password field is required
+
+**Test Type:** Negative Testing / Input Validation
+
+**Preconditions:** User is on the login page.
+
+**Test Data:**
+- Username: `marija123`
+- Password: Empty
+
+**Steps to Execute:**
+1. Open the login page.
+2. Enter `marija123` in the Username field.
+3. Leave the Password field empty.
+4. Click the Login button.
+
+**Expected Result:** The application should display a validation message indicating that the password field is required. The user should not be logged in.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
