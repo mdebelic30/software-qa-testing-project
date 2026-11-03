@@ -76,3 +76,29 @@ Status: Not Run
 **Actual Result:** To be filled after execution.
 
 **Status:** Not Run
+
+### TC04 – Verify username above maximum length
+
+**Test Case ID:** TC04
+
+**Title:** Verify that usernames longer than 20 characters are rejected
+
+**Test Type:** Negative Testing / Boundary Value Analysis
+
+**Preconditions:** User is on the login page.
+
+**Test Data:**
+- Username: `marijadebelic12345678`
+- Password: `Password123`
+
+**Steps to Execute:**
+1. Open the login page.
+2. Enter `marijadebelic12345678` in the Username field.
+3. Enter a valid password.
+4. Click the Login button.
+
+**Expected Result:** The application should display a validation message indicating that the username cannot exceed 20 characters. The login attempt should be rejected.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
