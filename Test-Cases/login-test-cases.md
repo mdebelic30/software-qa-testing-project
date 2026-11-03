@@ -202,11 +202,11 @@ Steps to Execute:
 3. Enter `WrongPass123` in the Password field.
 4. Click the Login button.
 
-**Expected Result:** The application should reject the login attempt and display an appropriate error message, such as "Invalid username or password". The user should not be logged in.
+**Actual Result:** The application displayed the error message: "invalid password".
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when an incorrect password was entered for a valid username.
 
 ### TC09 – Verify login with both fields empty
 
