@@ -128,3 +128,29 @@ Status: Not Run
 **Actual Result:** To be filled after execution.
 
 **Status:** Not Run
+
+### TC06 – Verify password below minimum length
+
+**Test Case ID:** TC06
+
+**Title:** Verify that passwords shorter than 8 characters are rejected
+
+**Test Type:** Negative Testing / Boundary Value Analysis
+
+**Preconditions:** User is on the login page.
+
+**Test Data:**
+- Username: `marija123`
+- Password: `pass12`
+
+**Steps to Execute:**
+1. Open the login page.
+2. Enter `marija123` in the Username field.
+3. Enter `pass12` in the Password field.
+4. Click the Login button.
+
+**Expected Result:** The application should display a validation message indicating that the password must contain at least 8 characters. The login attempt should be rejected.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
