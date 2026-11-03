@@ -206,3 +206,58 @@ Status: Not Run
 **Actual Result:** To be filled after execution.
 
 **Status:** Not Run
+
+### TC09 – Verify login with both fields empty
+
+**Test Case ID:** TC09
+
+**Title:** Verify that login is rejected when both username and password fields are empty
+
+**Test Type:** Negative Testing / Input Validation
+
+**Preconditions:** User is on the login page.
+
+**Test Data:**
+- Username: Empty
+- Password: Empty
+
+**Steps to Execute:**
+1. Open the login page.
+2. Leave the Username field empty.
+3. Leave the Password field empty.
+4. Click the Login button.
+
+**Expected Result:** The application should display validation messages indicating that both username and password fields are required. The user should not be logged in.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
+
+### TC10 – Verify login with different username letter casing
+
+**Test Case ID:** TC10
+
+**Title:** Verify that username login is case-insensitive
+
+**Test Type:** Functional Testing / Input Validation
+
+**Preconditions:**
+- User has an existing account.
+- The registered username is `marija123`.
+- The application treats usernames as case-insensitive.
+
+**Test Data:**
+- Username: `MARija123`
+- Password: `Password123`
+
+**Steps to Execute:**
+1. Open the login page.
+2. Enter `MARija123` in the Username field.
+3. Enter the correct password.
+4. Click the Login button.
+
+**Expected Result:** The application should successfully authenticate the user because username letter casing should not affect login.
+
+**Actual Result:** To be filled after execution.
+
+**Status:** Not Run
