@@ -228,11 +228,11 @@ Steps to Execute:
 3. Leave the Password field empty.
 4. Click the Login button.
 
-**Expected Result:** The application should display validation messages indicating that both username and password fields are required. The user should not be logged in.
+**Actual Result:** The application displayed the error message: "Your username is invalid!"
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when both username and password fields were left empty. However, the application displayed only a username-related error message.
 
 ### TC10 – Verify login with different username letter casing
 
