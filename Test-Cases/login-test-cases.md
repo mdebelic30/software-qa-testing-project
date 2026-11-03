@@ -46,11 +46,11 @@ Steps to Execute:
 3. Enter a valid password.
 4. Click the Login button.
 
-**Expected Result:** The application should display a validation message indicating that the username field is required. The user should not be logged in.
+**Actual Result:** The application displayed the error message: "Your username is invalid!"
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when the username field was left empty.
 
 ### TC03 – Verify username below minimum length
 
