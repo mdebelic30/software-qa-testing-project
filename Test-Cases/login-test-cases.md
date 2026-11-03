@@ -150,11 +150,11 @@ Steps to Execute:
 3. Enter `pass12` in the Password field.
 4. Click the Login button.
 
-**Expected Result:** The application should display a validation message indicating that the password must contain at least 8 characters. The login attempt should be rejected.
+**Actual Result:** The application displayed the error message: "invalid password".
 
-**Actual Result:** To be filled after execution.
+**Status:** Passed
 
-**Status:** Not Run
+**Execution Notes:** Login was rejected when a password shorter than the minimum allowed length (8 characters) was entered.
 
 ### TC07 – Verify password above maximum length
 
